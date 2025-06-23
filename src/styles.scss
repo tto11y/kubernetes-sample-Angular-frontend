@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+// todo is it possible to move these styles to the app.component.scsss ??
+.self-service-sidebar.p-drawer {
+  // todo use DESSY color palette here
+  background-color: #0074D9;
+  padding: 1.5em;
+
+  .p-drawer-footer
+  //,
+  //.p-drawer-header
+  {
+    padding: 1.25em;
+  }
+}
+

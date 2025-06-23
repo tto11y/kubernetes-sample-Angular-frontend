@@ -1,0 +1,23 @@
+/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jest"
+    ],
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true
+  },
+  /*  changed matching pattern to exclude types folder */
+  /*  see https://stackoverflow.com/a/48449206/29448749 */
+  "include": [
+    "src/**/components/*.spec.ts",
+    "src/**/services/*.spec.ts",
+    "src/app/*.spec.ts",
+  ],
+  "exclude": [
+    "src/**/types",
+  ]
+}
