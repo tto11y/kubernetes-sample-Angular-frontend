@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'o11y-self-service-frontend' title`, () => {
+  it(`should have the 'kubernetes-sample-Angular-frontend' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('o11y-self-service-frontend');
+    expect(app.title).toEqual('kubernetes-sample-Angular-frontend');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, o11y-self-service-frontend');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, kubernetes-sample-Angular-frontend');
   });
 });

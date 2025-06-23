@@ -1,5 +1,5 @@
 {
-  "name": "o11y-self-service-frontend",
+  "name": "kubernetes-sample-Angular-frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

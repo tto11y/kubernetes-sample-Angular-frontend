@@ -11,7 +11,7 @@
         "^production"
       ],
       "outputs": [
-        "{projectRoot}/dist/o11y-self-service-frontend"
+        "{projectRoot}/dist/kubernetes-sample-Angular-frontend"
       ]
     },
     "serve": {
@@ -29,7 +29,7 @@
     },
     "watch": {
       "outputs": [
-        "{projectRoot}/dist/o11y-self-service-frontend"
+        "{projectRoot}/dist/kubernetes-sample-Angular-frontend"
       ],
       "cache": true
     }
